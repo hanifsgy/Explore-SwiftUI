@@ -26,6 +26,7 @@
 		844B45A822BE78BC0043A752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		844B45AA22BE78BC0043A752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844B45B122BE7B270043A752 /* FacebookLikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLikeView.swift; sourceTree = "<group>"; };
+		844B45B322BE821C0043A752 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		844B459022BE78BA0043A752 = {
 			isa = PBXGroup;
 			children = (
+				844B45B322BE821C0043A752 /* README.md */,
 				844B459B22BE78BA0043A752 /* Explore-SwiftUI */,
 				844B459A22BE78BA0043A752 /* Products */,
 			);
