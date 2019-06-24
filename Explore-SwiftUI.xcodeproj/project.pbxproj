@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8424F49922C0BDDD00E53FB3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F49822C0BDDD00E53FB3 /* MapView.swift */; };
+		8424F49B22C0BE2A00E53FB3 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F49A22C0BE2A00E53FB3 /* Map.swift */; };
+		8424F49D22C0C03600E53FB3 /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F49C22C0C03600E53FB3 /* SlideOverCard.swift */; };
+		8424F49F22C0C10100E53FB3 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F49E22C0C10100E53FB3 /* Handle.swift */; };
+		8424F4A122C0C29200E53FB3 /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F4A022C0C29200E53FB3 /* CoverImage.swift */; };
 		844B459D22BE78BA0043A752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B459C22BE78BA0043A752 /* AppDelegate.swift */; };
 		844B459F22BE78BA0043A752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B459E22BE78BA0043A752 /* SceneDelegate.swift */; };
 		844B45A122BE78BA0043A752 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B45A022BE78BA0043A752 /* ContentView.swift */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8424F49822C0BDDD00E53FB3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8424F49A22C0BE2A00E53FB3 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		8424F49C22C0C03600E53FB3 /* SlideOverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverCard.swift; sourceTree = "<group>"; };
+		8424F49E22C0C10100E53FB3 /* Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
+		8424F4A022C0C29200E53FB3 /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
 		844B459922BE78BA0043A752 /* Explore-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Explore-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844B459C22BE78BA0043A752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844B459E22BE78BA0043A752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +52,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8424F49522C0BA9400E53FB3 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8424F49822C0BDDD00E53FB3 /* MapView.swift */,
+				8424F49A22C0BE2A00E53FB3 /* Map.swift */,
+				8424F49C22C0C03600E53FB3 /* SlideOverCard.swift */,
+				8424F49E22C0C10100E53FB3 /* Handle.swift */,
+				8424F4A022C0C29200E53FB3 /* CoverImage.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
 		844B459022BE78BA0043A752 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,7 @@
 		844B45B022BE7B100043A752 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				8424F49522C0BA9400E53FB3 /* Map */,
 				844B45B122BE7B270043A752 /* FacebookLikeView.swift */,
 				844B45BA22BE8DD80043A752 /* CardWalletView.swift */,
 			);
@@ -163,8 +186,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				844B459D22BE78BA0043A752 /* AppDelegate.swift in Sources */,
+				8424F4A122C0C29200E53FB3 /* CoverImage.swift in Sources */,
+				8424F49922C0BDDD00E53FB3 /* MapView.swift in Sources */,
+				8424F49F22C0C10100E53FB3 /* Handle.swift in Sources */,
 				844B459F22BE78BA0043A752 /* SceneDelegate.swift in Sources */,
+				8424F49B22C0BE2A00E53FB3 /* Map.swift in Sources */,
 				844B45A122BE78BA0043A752 /* ContentView.swift in Sources */,
+				8424F49D22C0C03600E53FB3 /* SlideOverCard.swift in Sources */,
 				844B45BB22BE8DD80043A752 /* CardWalletView.swift in Sources */,
 				844B45B222BE7B270043A752 /* FacebookLikeView.swift in Sources */,
 			);
