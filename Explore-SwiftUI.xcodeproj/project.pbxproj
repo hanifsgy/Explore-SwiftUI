@@ -12,6 +12,8 @@
 		8424F49D22C0C03600E53FB3 /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F49C22C0C03600E53FB3 /* SlideOverCard.swift */; };
 		8424F49F22C0C10100E53FB3 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F49E22C0C10100E53FB3 /* Handle.swift */; };
 		8424F4A122C0C29200E53FB3 /* CoverImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F4A022C0C29200E53FB3 /* CoverImage.swift */; };
+		8424F4A522C0D1EC00E53FB3 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F4A422C0D1EC00E53FB3 /* CircleButton.swift */; };
+		8424F4A722C0D2C200E53FB3 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F4A622C0D2C200E53FB3 /* FloatingButton.swift */; };
 		844B459D22BE78BA0043A752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B459C22BE78BA0043A752 /* AppDelegate.swift */; };
 		844B459F22BE78BA0043A752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B459E22BE78BA0043A752 /* SceneDelegate.swift */; };
 		844B45A122BE78BA0043A752 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B45A022BE78BA0043A752 /* ContentView.swift */; };
@@ -28,6 +30,8 @@
 		8424F49C22C0C03600E53FB3 /* SlideOverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverCard.swift; sourceTree = "<group>"; };
 		8424F49E22C0C10100E53FB3 /* Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
 		8424F4A022C0C29200E53FB3 /* CoverImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImage.swift; sourceTree = "<group>"; };
+		8424F4A422C0D1EC00E53FB3 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		8424F4A622C0D2C200E53FB3 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		844B459922BE78BA0043A752 /* Explore-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Explore-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844B459C22BE78BA0043A752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844B459E22BE78BA0043A752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,15 @@
 				8424F4A022C0C29200E53FB3 /* CoverImage.swift */,
 			);
 			name = Map;
+			sourceTree = "<group>";
+		};
+		8424F4A322C0D1B200E53FB3 /* FloatingButton */ = {
+			isa = PBXGroup;
+			children = (
+				8424F4A422C0D1EC00E53FB3 /* CircleButton.swift */,
+				8424F4A622C0D2C200E53FB3 /* FloatingButton.swift */,
+			);
+			name = FloatingButton;
 			sourceTree = "<group>";
 		};
 		844B459022BE78BA0043A752 = {
@@ -107,6 +120,7 @@
 		844B45B022BE7B100043A752 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				8424F4A322C0D1B200E53FB3 /* FloatingButton */,
 				8424F49522C0BA9400E53FB3 /* Map */,
 				844B45B122BE7B270043A752 /* FacebookLikeView.swift */,
 				844B45BA22BE8DD80043A752 /* CardWalletView.swift */,
@@ -191,10 +205,12 @@
 				8424F49F22C0C10100E53FB3 /* Handle.swift in Sources */,
 				844B459F22BE78BA0043A752 /* SceneDelegate.swift in Sources */,
 				8424F49B22C0BE2A00E53FB3 /* Map.swift in Sources */,
+				8424F4A522C0D1EC00E53FB3 /* CircleButton.swift in Sources */,
 				844B45A122BE78BA0043A752 /* ContentView.swift in Sources */,
 				8424F49D22C0C03600E53FB3 /* SlideOverCard.swift in Sources */,
 				844B45BB22BE8DD80043A752 /* CardWalletView.swift in Sources */,
 				844B45B222BE7B270043A752 /* FacebookLikeView.swift in Sources */,
+				8424F4A722C0D2C200E53FB3 /* FloatingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
