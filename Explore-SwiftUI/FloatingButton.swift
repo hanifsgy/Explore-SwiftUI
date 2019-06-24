@@ -25,10 +25,10 @@ struct FloatingButton : View {
     
     @State var isOn = false
     let buttons: [ButtonData] = [
-        ButtonData(name: "plus", position: 1, type: .main),
         ButtonData(name: "ic_delete_24_white", position: 2, type: .top),
         ButtonData(name: "ic_filter_calendar_24_white", position: 3, type: .middle),
-        ButtonData(name: "ic_invite_family_white", position: 4, type: .left)
+        ButtonData(name: "ic_invite_family_white", position: 4, type: .left),
+        ButtonData(name: "plus", position: 1, type: .main)
     ]
     
     var body: some View {
