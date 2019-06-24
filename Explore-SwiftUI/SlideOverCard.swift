@@ -54,11 +54,11 @@ struct SlideOverCard<Content: View> : View {
             Handle()
             self.content()
             }
-            .frame(height: 800)
+            .frame(height: UIScreen.main.bounds.height)
             .background(Color.white)
             .cornerRadius(10.0)
             .shadow(color: Color(.sRGBLinear, white: 0, opacity: 0.13), radius: 10.0)
-            .offset(y: self.position.rawValue + self.dragState.translation.height)
+            .offset(y: self.position.rawValue)
             .animation(self.dragState.isDragging ? nil : .spring(stiffness: 300.0, damping: 30.0, initialVelocity: 10.0))
             .gesture(drag)
     }
