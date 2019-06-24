@@ -6,7 +6,7 @@ Just having fun with swift UI  🙂
 
 1. Facebook Like View
 1. CardView
-1.
+1. Implementations MapKit with SlideOver
 1.
 1.
 
