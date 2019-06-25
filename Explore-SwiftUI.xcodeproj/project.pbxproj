@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84129EED22C1D7810054DABB /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84129EEC22C1D7810054DABB /* TabView.swift */; };
+		84129EF322C1DD7F0054DABB /* CustomEnvView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84129EF222C1DD7F0054DABB /* CustomEnvView.swift */; };
 		8424F49922C0BDDD00E53FB3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F49822C0BDDD00E53FB3 /* MapView.swift */; };
 		8424F49B22C0BE2A00E53FB3 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F49A22C0BE2A00E53FB3 /* Map.swift */; };
 		8424F49D22C0C03600E53FB3 /* SlideOverCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F49C22C0C03600E53FB3 /* SlideOverCard.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		84129EEC22C1D7810054DABB /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		84129EF222C1DD7F0054DABB /* CustomEnvView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvView.swift; sourceTree = "<group>"; };
 		8424F49822C0BDDD00E53FB3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		8424F49A22C0BE2A00E53FB3 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		8424F49C22C0C03600E53FB3 /* SlideOverCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOverCard.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		844B45B022BE7B100043A752 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				8476116422C1E18200217190 /* CustomEnvironment */,
 				84129EEB22C1D76D0054DABB /* TabBar */,
 				84129EEA22C1D7610054DABB /* Some Card */,
 				84129EE922C1D74F0054DABB /* Facebook */,
@@ -153,6 +156,14 @@
 				8424F49522C0BA9400E53FB3 /* Map */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		8476116422C1E18200217190 /* CustomEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				84129EF222C1DD7F0054DABB /* CustomEnvView.swift */,
+			);
+			name = CustomEnvironment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +250,7 @@
 				844B45BB22BE8DD80043A752 /* CardWalletView.swift in Sources */,
 				844B45B222BE7B270043A752 /* FacebookLikeView.swift in Sources */,
 				8424F4A722C0D2C200E53FB3 /* FloatingButton.swift in Sources */,
+				84129EF322C1DD7F0054DABB /* CustomEnvView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
