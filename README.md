@@ -1,4 +1,4 @@
-#  Explore Swift UI
+#  Explore SwiftUI
 
 Just having fun with swift UI  🙂
 
