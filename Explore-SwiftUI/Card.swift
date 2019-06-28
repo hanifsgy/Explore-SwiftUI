@@ -11,48 +11,60 @@ import SwiftUI
 struct Card : View {
     
     @State var show = false
+    @State var viewState = CGSize.zero
     
     var body: some View {
         ZStack {
             
             TitleView()
                 .blur(radius: show ? 20 : 0)
+                .animation(.default)
             
             CardBottom()
                 .blur(radius: show ? 20 : 0)
                 .animation(.default)
             
             CardBack ()
-                .background(show ? Color("background9") : Color("background4"))
+                .background(show ? Color("background9") : Color.gray)
                 .cornerRadius(10)
                 .shadow(radius: 20)
                 .offset(x: 0, y: show ? -280 : -40.0)
                 .scaleEffect(0.85)
                 .rotationEffect(Angle(degrees: show ? 15: 0))
-//                .rotation3DEffect(Angle(degrees: show ? 50: 0), axis: (x: 10.0, y: 10.0, z: 10.0))
                 .animation(.basic(duration: 0.9, curve: .easeInOut))
                 .blendMode(.hardLight)
+                .offset(x: viewState.width, y: viewState.height)
             CardBack ()
-                .background(show ? Color("background8") : Color("background3"))
+                .background(show ? Color("background8") : Color.gray)
                 .cornerRadius(10)
                 .shadow(radius: 20)
-                .offset(x: 0, y: show ? -150 : -20.0)
+                .offset(x: 0, y: show ? -200 : -20.0)
                 .scaleEffect(0.9)
                 .rotationEffect(Angle(degrees: show ? 10 : 0))
-//                .rotation3DEffect(Angle(degrees: show ? 40 : 0), axis: (x: 10.0, y: 10.0, z: 10.0))
                 .animation(.basic(duration: 0.5, curve: .easeInOut))
                 .blendMode(.hardLight)
+                .offset(x: viewState.width, y: viewState.height)
+            
             CertificateView()
+                .offset(x: viewState.width, y: viewState.height)
                 .scaleEffect(0.95)
                 .rotationEffect(Angle(degrees: show ? 15 : 0))
-//                .rotation3DEffect(Angle(degrees: show ? 20 : 0 ), axis: (x: 10.0, y: 10.0, z: 10.0))
                 .animation(.spring(mass: 1,
-                                   stiffness: 80,
-                                   damping: 8,
+                                   stiffness: 100,
+                                   damping: 10,
                                    initialVelocity: 1))
                 .tapAction {
                     self.show.toggle()
-            }
+                }
+                .gesture(DragGesture()
+                    .onChanged({ (value) in
+                        self.viewState = value.translation
+                        self.show = true
+                    })
+                    .onEnded({ (value) in
+                        self.viewState = CGSize.zero
+                        self.show = false
+                    }))
         }
     }
 }

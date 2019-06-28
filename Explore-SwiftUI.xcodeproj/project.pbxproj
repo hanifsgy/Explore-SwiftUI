@@ -18,6 +18,8 @@
 		8424F4A722C0D2C200E53FB3 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424F4A622C0D2C200E53FB3 /* FloatingButton.swift */; };
 		84417E0022C623780018B2D1 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84417DFF22C623780018B2D1 /* BlurView.swift */; };
 		84417E0222C627510018B2D1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84417E0122C627510018B2D1 /* Card.swift */; };
+		84417E0522C64FFC0018B2D1 /* HomeOfCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84417E0422C64FFC0018B2D1 /* HomeOfCard.swift */; };
+		84417E0722C65FCA0018B2D1 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84417E0622C65FCA0018B2D1 /* CardContentView.swift */; };
 		844B459D22BE78BA0043A752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B459C22BE78BA0043A752 /* AppDelegate.swift */; };
 		844B459F22BE78BA0043A752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B459E22BE78BA0043A752 /* SceneDelegate.swift */; };
 		844B45A122BE78BA0043A752 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B45A022BE78BA0043A752 /* ContentView.swift */; };
@@ -40,6 +42,8 @@
 		8424F4A622C0D2C200E53FB3 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		84417DFF22C623780018B2D1 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		84417E0122C627510018B2D1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		84417E0422C64FFC0018B2D1 /* HomeOfCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOfCard.swift; sourceTree = "<group>"; };
+		84417E0622C65FCA0018B2D1 /* CardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
 		844B459922BE78BA0043A752 /* Explore-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Explore-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844B459C22BE78BA0043A752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844B459E22BE78BA0043A752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				844B45BA22BE8DD80043A752 /* CardWalletView.swift */,
-				84417E0122C627510018B2D1 /* Card.swift */,
 			);
 			name = "Some Card";
 			sourceTree = "<group>";
@@ -116,6 +119,16 @@
 				84417DFF22C623780018B2D1 /* BlurView.swift */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		84417E0322C64FCB0018B2D1 /* House of Cards */ = {
+			isa = PBXGroup;
+			children = (
+				84417E0122C627510018B2D1 /* Card.swift */,
+				84417E0422C64FFC0018B2D1 /* HomeOfCard.swift */,
+				84417E0622C65FCA0018B2D1 /* CardContentView.swift */,
+			);
+			name = "House of Cards";
 			sourceTree = "<group>";
 		};
 		844B459022BE78BA0043A752 = {
@@ -161,6 +174,7 @@
 		844B45B022BE7B100043A752 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				84417E0322C64FCB0018B2D1 /* House of Cards */,
 				84417DFE22C623650018B2D1 /* Utils */,
 				8476116422C1E18200217190 /* CustomEnvironment */,
 				84129EEB22C1D76D0054DABB /* TabBar */,
@@ -252,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				844B459D22BE78BA0043A752 /* AppDelegate.swift in Sources */,
+				84417E0522C64FFC0018B2D1 /* HomeOfCard.swift in Sources */,
 				8424F4A122C0C29200E53FB3 /* CoverImage.swift in Sources */,
 				84417E0022C623780018B2D1 /* BlurView.swift in Sources */,
+				84417E0722C65FCA0018B2D1 /* CardContentView.swift in Sources */,
 				84129EED22C1D7810054DABB /* TabView.swift in Sources */,
 				8424F49922C0BDDD00E53FB3 /* MapView.swift in Sources */,
 				8424F49F22C0C10100E53FB3 /* Handle.swift in Sources */,
